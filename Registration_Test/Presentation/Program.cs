@@ -11,7 +11,7 @@ class Program
     {
         var services = new ServiceCollection();
         
-        services.AddDbContext<UserDbContext>(options => options.UseNpgsql("Host=localhost;Port=5432;Database=registration_db;username=postgres;password=sDNsku6tdm."));
+        services.AddDbContext<UserDbContext>(options => options.UseNpgsql("Host=localhost;Port=5432;Database=registration_db;username=postgres;password="));
         //services.AddScoped<IUserRepository, PostgresUserRepository>();
         //services.AddScoped<IUserService, UserService>();
         
